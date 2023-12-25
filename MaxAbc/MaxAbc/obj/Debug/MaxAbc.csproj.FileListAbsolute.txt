@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\bin\Debug\MaxAbc.exe.config
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\bin\Debug\MaxAbc.exe
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\bin\Debug\MaxAbc.pdb
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.Form1.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.frm_cauhinhchung.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.Frm_Kichban.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.frm_quanlikichban.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.Properties.Resources.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.exe
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.pdb
