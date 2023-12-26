@@ -12,3 +12,8 @@ C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.csproj.GenerateReso
 C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.exe
 C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.pdb
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.frm_nhaptaikhoan.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.frm_themkichban.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.frm_themhanhdong.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.frm_nhantinpage.resources
+C:\Users\Admin\Desktop\MaxAbc\MaxAbc\MaxAbc\obj\Debug\MaxAbc.frm_luotnewfeed.resources

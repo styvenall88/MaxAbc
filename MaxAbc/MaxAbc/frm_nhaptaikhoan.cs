@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace MaxAbc
 {
-    public partial class frm_cauhinhchung : Form
+    public partial class frm_nhaptaikhoan : Form
     {
-        public frm_cauhinhchung()
+        public frm_nhaptaikhoan()
         {
             InitializeComponent();
         }
 
-        private void btn_dong_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void Btn_Luu_Click(object sender, EventArgs e)
+        private void btn_Luu_Click(object sender, EventArgs e)
         {
-         this.Close();
+            this.Close();
         }
     }
 }

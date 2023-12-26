@@ -10,21 +10,22 @@ using System.Windows.Forms;
 
 namespace MaxAbc
 {
-    public partial class frm_cauhinhchung : Form
+    public partial class frm_themhanhdong : Form
     {
-        public frm_cauhinhchung()
+        public frm_themhanhdong()
         {
             InitializeComponent();
         }
 
-        private void btn_dong_Click(object sender, EventArgs e)
+        private void btn_nhantinpage_Click(object sender, EventArgs e)
         {
-            this.Close();
+            frm_nhantinpage f = new frm_nhantinpage();
+            f.ShowDialog();
         }
 
-        private void Btn_Luu_Click(object sender, EventArgs e)
+        private void btn_luotnewfeed_Click(object sender, EventArgs e)
         {
-         this.Close();
+
         }
     }
 }

@@ -31,15 +31,16 @@
             this.btn_chay_tuong_tac = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_nhap_tai_khoan = new System.Windows.Forms.Button();
-            this.chon_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stt_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Uid_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tinhtrang_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.trangthai_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btn_cauhinhchung = new System.Windows.Forms.Button();
             this.btn_cauhinhtuongtac = new System.Windows.Forms.Button();
+            this.chon_colum = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.stt_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Uid_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pass_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tinhtrang_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.trangthai_colum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,6 +60,7 @@
             this.chon_colum,
             this.stt_colum,
             this.Uid_colum,
+            this.pass_colum,
             this.tinhtrang_colum,
             this.trangthai_colum});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -75,31 +77,7 @@
             this.btn_nhap_tai_khoan.TabIndex = 2;
             this.btn_nhap_tai_khoan.Text = "Nhập tài khoản ";
             this.btn_nhap_tai_khoan.UseVisualStyleBackColor = true;
-            // 
-            // chon_colum
-            // 
-            this.chon_colum.HeaderText = "Chọn";
-            this.chon_colum.Name = "chon_colum";
-            // 
-            // stt_colum
-            // 
-            this.stt_colum.HeaderText = "Stt";
-            this.stt_colum.Name = "stt_colum";
-            // 
-            // Uid_colum
-            // 
-            this.Uid_colum.HeaderText = "UID";
-            this.Uid_colum.Name = "Uid_colum";
-            // 
-            // tinhtrang_colum
-            // 
-            this.tinhtrang_colum.HeaderText = "Tình trạng";
-            this.tinhtrang_colum.Name = "tinhtrang_colum";
-            // 
-            // trangthai_colum
-            // 
-            this.trangthai_colum.HeaderText = "Trạng thái";
-            this.trangthai_colum.Name = "trangthai_colum";
+            this.btn_nhap_tai_khoan.Click += new System.EventHandler(this.btn_nhap_tai_khoan_Click);
             // 
             // label1
             // 
@@ -138,6 +116,44 @@
             this.btn_cauhinhtuongtac.UseVisualStyleBackColor = true;
             this.btn_cauhinhtuongtac.Click += new System.EventHandler(this.btn_cauhinhtuongtac_Click);
             // 
+            // chon_colum
+            // 
+            this.chon_colum.HeaderText = "Chọn";
+            this.chon_colum.Name = "chon_colum";
+            this.chon_colum.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.chon_colum.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.chon_colum.Width = 50;
+            // 
+            // stt_colum
+            // 
+            this.stt_colum.HeaderText = "Stt";
+            this.stt_colum.Name = "stt_colum";
+            this.stt_colum.Width = 60;
+            // 
+            // Uid_colum
+            // 
+            this.Uid_colum.HeaderText = "UID";
+            this.Uid_colum.Name = "Uid_colum";
+            this.Uid_colum.Width = 150;
+            // 
+            // pass_colum
+            // 
+            this.pass_colum.HeaderText = "Pass";
+            this.pass_colum.Name = "pass_colum";
+            this.pass_colum.Width = 120;
+            // 
+            // tinhtrang_colum
+            // 
+            this.tinhtrang_colum.HeaderText = "Tình trạng";
+            this.tinhtrang_colum.Name = "tinhtrang_colum";
+            this.tinhtrang_colum.Width = 160;
+            // 
+            // trangthai_colum
+            // 
+            this.trangthai_colum.HeaderText = "Trạng thái";
+            this.trangthai_colum.Name = "trangthai_colum";
+            this.trangthai_colum.Width = 190;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -163,15 +179,16 @@
         private System.Windows.Forms.Button btn_chay_tuong_tac;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_nhap_tai_khoan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn chon_colum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn stt_colum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Uid_colum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tinhtrang_colum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn trangthai_colum;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btn_cauhinhchung;
         private System.Windows.Forms.Button btn_cauhinhtuongtac;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn chon_colum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stt_colum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Uid_colum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pass_colum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tinhtrang_colum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn trangthai_colum;
     }
 }
 

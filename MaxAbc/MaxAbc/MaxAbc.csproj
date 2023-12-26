@@ -64,11 +64,41 @@
     <Compile Include="Frm_Kichban.Designer.cs">
       <DependentUpon>Frm_Kichban.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_luotnewfeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_luotnewfeed.Designer.cs">
+      <DependentUpon>frm_luotnewfeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_nhantinpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_nhantinpage.Designer.cs">
+      <DependentUpon>frm_nhantinpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_nhaptaikhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_nhaptaikhoan.Designer.cs">
+      <DependentUpon>frm_nhaptaikhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_quanlikichban.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_quanlikichban.Designer.cs">
       <DependentUpon>frm_quanlikichban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_themhanhdong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_themhanhdong.Designer.cs">
+      <DependentUpon>frm_themhanhdong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_themkichban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_themkichban.Designer.cs">
+      <DependentUpon>frm_themkichban.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,8 +111,23 @@
     <EmbeddedResource Include="Frm_Kichban.resx">
       <DependentUpon>Frm_Kichban.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_luotnewfeed.resx">
+      <DependentUpon>frm_luotnewfeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_nhantinpage.resx">
+      <DependentUpon>frm_nhantinpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_nhaptaikhoan.resx">
+      <DependentUpon>frm_nhaptaikhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_quanlikichban.resx">
       <DependentUpon>frm_quanlikichban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_themhanhdong.resx">
+      <DependentUpon>frm_themhanhdong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_themkichban.resx">
+      <DependentUpon>frm_themkichban.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

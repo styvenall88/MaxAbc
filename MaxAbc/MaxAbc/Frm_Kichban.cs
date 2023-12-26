@@ -25,14 +25,12 @@ namespace MaxAbc
 
         private void btn_luu_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
-            f.ShowDialog();
+            this.Close();
         }
 
         private void Btn_dong_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
-            f.ShowDialog();
+            this.Close();
         }
     }
 }
